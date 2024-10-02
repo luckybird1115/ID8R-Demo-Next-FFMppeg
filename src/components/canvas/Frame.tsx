@@ -445,7 +445,7 @@ return (
                 fontSize={0.25}
                 color="white"
             >
-               {" Owner : Ryo Mukaitusbo"}
+               {" Owner : Ryo Mukaitsubo"}
             </Text>
             </Suspense>
         </group>
