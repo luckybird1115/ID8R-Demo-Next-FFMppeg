@@ -44,7 +44,7 @@ const CanvasWrapper = ({ children }) => {
             toneMapping: 301, // Change to a supported tone mapping method
             toneMappingExposure: 1.65,
         }}
-        camera={{ position: [0, 0, 3.22643], fov: 45, near: 1, far: 1000 }}
+        camera={{ position: [0, 0, 5], fov: 45, near: 1, far: 1000 }}
         style={{
           position: "absolute",
           top: 0,

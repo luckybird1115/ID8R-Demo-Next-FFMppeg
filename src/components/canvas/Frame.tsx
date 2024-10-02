@@ -3,7 +3,7 @@ import React, { useEffect, useRef, Suspense } from 'react';
 import {useThree } from "@react-three/fiber";
 
 import * as THREE from "three";
-import { useGLTF, useAnimations, useTexture } from "@react-three/drei"
+import { useGLTF, useAnimations, useTexture, Text } from "@react-three/drei"
 
 import { RGBELoader } from 'three/examples/jsm/loaders/RGBELoader.js'
 import { PMREMGenerator } from "three/src/extras/PMREMGenerator";
@@ -436,6 +436,17 @@ return (
             <Suspense fallback={null}>
                 <FrameModel
                 />
+            <Text
+                maxWidth={10}
+                anchorX="center"
+                anchorY="middle"
+                position={[0, -1, 1]}
+                rotation={[0, 0, 0]}
+                fontSize={0.25}
+                color="white"
+            >
+               {" Owner : Ryo Mukaitusbo"}
+            </Text>
             </Suspense>
         </group>
     </>
